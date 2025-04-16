@@ -54,7 +54,7 @@ export const iphoneModels = [
   {
     name: "iPhone 16",
     description: "As amazing as ever.",
-    price: "From $799",
+    price: "From $720",
     img: "images/iphone16.png",
   },
 ];
