@@ -3,6 +3,7 @@ import Controls from "./components/Controls";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Iphone from "./components/Iphone";
+import MacBook from "./components/MacBook";
 
 const App = () => {
   const [frameZoom, setFrameZoom] = useState(false);
@@ -24,9 +25,10 @@ const App = () => {
       >
         <Navbar activePage={activePage} handleNavClick={handleNavClick} />
         <Controls toggleZoom={toggleZoom} frameZoom={frameZoom} />
-        <div className="flex-grow">
+        <div className="flex-grow lg:overflow-y-hidden">
           {/* <Home /> */}
-          <Iphone />
+          {/* <Iphone /> */}
+          <MacBook />
         </div>
       </div>
     </div>
