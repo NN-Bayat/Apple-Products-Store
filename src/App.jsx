@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Iphone from "./components/Iphone";
 import MacBook from "./components/MacBook";
+import Watch from "./components/Watch";
 
 const App = () => {
   const [frameZoom, setFrameZoom] = useState(false);
@@ -28,7 +29,8 @@ const App = () => {
         <div className="flex-grow lg:overflow-y-hidden">
           {/* <Home /> */}
           {/* <Iphone /> */}
-          <MacBook />
+          {/* <MacBook /> */}
+          <Watch />
         </div>
       </div>
     </div>

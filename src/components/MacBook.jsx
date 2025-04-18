@@ -14,9 +14,9 @@ const MacBook = () => {
   };
   return (
     <div className="flex flex-col items-center justify-around bg-white p-8 pb-6">
-      <h1 className="2xl:text-4xl xl:text-3xl md:text-2xl font-semibold text-gray-800 mb-6">
+      <h3 className="2xl:text-4xl xl:text-3xl md:text-2xl font-semibold text-gray-800 mb-8">
         Choose your new MacBook Air.
-      </h1>
+      </h3>
       <div className="flex">
         {macbookModels.map((mb, index) => (
           <button
