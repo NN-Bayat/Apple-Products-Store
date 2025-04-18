@@ -142,59 +142,59 @@ export const watchModels = [
   },
 ];
 
-// export const imacModels = [
-//   {
-//     label: "Green",
-//     bg: "#10505b",
-//     images: {
-//       side: "images/imac/green-side.jpg",
-//       front: "images/imac/green-front.jpg",
-//       back: "images/imac/green-back.jpg",
-//     },
-//   },
-//   {
-//     label: "Yellow",
-//     bg: "#d48207",
-//     images: {
-//       side: "images/imac/yellow-side.jpg",
-//       front: "images/imac/yellow-front.jpg",
-//       back: "images/imac/yellow-back.jpg",
-//     },
-//   },
-//   {
-//     label: "Orange",
-//     bg: "#e36942",
-//     images: {
-//       side: "images/imac/orange-side.jpg",
-//       front: "images/imac/orange-front.jpg",
-//       back: "images/imac/orange-back.jpg",
-//     },
-//   },
-//   {
-//     label: "Pink",
-//     bg: "#b72c31",
-//     images: {
-//       side: "images/imac/pink-side.jpg",
-//       front: "images/imac/pink-front.jpg",
-//       back: "images/imac/pink-back.jpg",
-//     },
-//   },
-//   {
-//     label: "Purple",
-//     bg: "#353a71",
-//     images: {
-//       side: "images/imac/purple-side.jpg",
-//       front: "images/imac/purple-front.jpg",
-//       back: "images/imac/purple-back.jpg",
-//     },
-//   },
-//   {
-//     label: "Silver",
-//     bg: "#c7c8ca",
-//     images: {
-//       side: "images/imac/silver-side.jpg",
-//       front: "images/imac/silver-front.jpg",
-//       back: "images/imac/silver-back.jpg",
-//     },
-//   },
-// ];
+export const imacModels = [
+  {
+    label: "Green",
+    bg: "#10505b",
+    images: {
+      side: "images/imac/green-side.jpg",
+      front: "images/imac/green-front.jpg",
+      back: "images/imac/green-back.jpg",
+    },
+  },
+  {
+    label: "Yellow",
+    bg: "#d48207",
+    images: {
+      side: "images/imac/yellow-side.jpg",
+      front: "images/imac/yellow-front.jpg",
+      back: "images/imac/yellow-back.jpg",
+    },
+  },
+  {
+    label: "Orange",
+    bg: "#e36942",
+    images: {
+      side: "images/imac/orange-side.jpg",
+      front: "images/imac/orange-front.jpg",
+      back: "images/imac/orange-back.jpg",
+    },
+  },
+  {
+    label: "Pink",
+    bg: "#b72c31",
+    images: {
+      side: "images/imac/pink-side.jpg",
+      front: "images/imac/pink-front.jpg",
+      back: "images/imac/pink-back.jpg",
+    },
+  },
+  {
+    label: "Purple",
+    bg: "#353a71",
+    images: {
+      side: "images/imac/purple-side.jpg",
+      front: "images/imac/purple-front.jpg",
+      back: "images/imac/purple-back.jpg",
+    },
+  },
+  {
+    label: "Silver",
+    bg: "#c7c8ca",
+    images: {
+      side: "images/imac/silver-side.jpg",
+      front: "images/imac/silver-front.jpg",
+      back: "images/imac/silver-back.jpg",
+    },
+  },
+];
