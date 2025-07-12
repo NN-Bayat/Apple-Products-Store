@@ -3,7 +3,7 @@ import { watchModels } from "../data/index";
 
 const Watch = () => {
   return (
-    <div className="flex flex-col items-center justify-around bg-white h-full py-8 px-4">
+    <div className="flex flex-col items-center justify-around bg-white h-full py-8 px-4 border-l border-gray-300">
       <h3 className="2xl:text-4xl xl:text-3xl md:text-2xl font-semibold text-gray-800 mb-8">
         Which Apple Watch do you prefer?
       </h3>

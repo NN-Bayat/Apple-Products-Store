@@ -68,13 +68,17 @@ export const macbookModels = [
       {
         label: "Space gray",
         bg: "#b2b5b8",
-        img: "images/macbook-air-spacegray-m2.jpg",
+        img: "images/macbook/macbook-air-spacegray-m2.jpg",
       },
-      { label: "Gold", bg: "#f0e0d3", img: "images/macbook-air-gold-m2.jpg" },
+      {
+        label: "Gold",
+        bg: "#f0e0d3",
+        img: "images/macbook/macbook-air-gold-m2.jpg",
+      },
       {
         label: "Silver",
         bg: "#e0e2e1",
-        img: "images/macbook-air-silver-m2.jpg",
+        img: "images/macbook/macbook-air-silver-m2.jpg",
       },
     ],
     specs: [
@@ -93,22 +97,22 @@ export const macbookModels = [
       {
         label: "Midnight",
         bg: "#2e3641",
-        img: "images/macbook-air-midnight-m3.jpg",
+        img: "images/macbook/macbook-air-midnight-m3.jpg",
       },
       {
         label: "Starlight",
         bg: "#f0e5d3",
-        img: "images/macbook-air-starlight-m3.jpg",
+        img: "images/macbook/macbook-air-starlight-m3.jpg",
       },
       {
         label: "Space gray",
         bg: "#7d7e80",
-        img: "images/macbook-air-spacegray-m3.jpg",
+        img: "images/macbook/macbook-air-spacegray-m3.jpg",
       },
       {
         label: "Silver",
         bg: "#e3e4e6",
-        img: "images/macbook-air-silver-m3.jpg",
+        img: "images/macbook/macbook-air-silver-m3.jpg",
       },
     ],
     specs: [
