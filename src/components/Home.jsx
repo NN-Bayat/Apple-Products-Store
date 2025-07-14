@@ -3,7 +3,7 @@ import { items } from "../data";
 
 const Home = ({ onNavigate }) => {
   return (
-    <div className="w-full h-full grid grid-cols-2 grid-rows-2 gap-4 bg-gray-50 border-l border-gray-300">
+    <div className="w-full h-full grid grid-cols-2 grid-rows-2 gap-4 bg-gray-50">
       {items.map((item, index) => (
         <div
           key={index}

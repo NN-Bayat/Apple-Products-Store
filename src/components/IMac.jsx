@@ -9,7 +9,7 @@ const IMac = () => {
     imacModels.find((model) => model.label.toLowerCase() === selectedColor);
 
   return (
-    <div className="h-full grid grid-cols-2 grid-rows-2 md:gap-4 gap-1 bg-white relative border-l border-gray-300">
+    <div className="h-full grid grid-cols-2 grid-rows-2 md:gap-4 gap-1 bg-white relative">
       <div className="h-full col-span-1 row-span-2 flex flex-col items-center md:justify-center justify-start p-8 bg-gray-50">
         <img
           src={getCurrentModel().images.side}

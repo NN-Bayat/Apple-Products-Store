@@ -3,8 +3,8 @@ import { watchModels } from "../data/index";
 
 const Watch = () => {
   return (
-    <div className="flex flex-col items-center justify-around bg-white h-full py-8 px-4 border-l border-gray-300">
-      <h3 className="2xl:text-4xl xl:text-3xl md:text-2xl font-semibold text-gray-800 mb-8">
+    <div className="flex flex-col items-center justify-around bg-white h-full py-8 px-4">
+      <h3 className="2xl:text-4xl xl:text-3xl md:text-2xl font-semibold text-gray-800">
         Which Apple Watch do you prefer?
       </h3>
       <div className="w-full flex justify-around">
@@ -12,7 +12,7 @@ const Watch = () => {
           <div className="w-60 h-[430px] flex flex-col justify-around">
             <div
               key={index}
-              className="w-full h-64 mb-4 overflow-hidden relative group"
+              className="w-full lg:h-64 h-52 mb-4 overflow-hidden relative group"
             >
               <img
                 src={watch.imgs[0]}

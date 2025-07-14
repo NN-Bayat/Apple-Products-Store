@@ -3,7 +3,7 @@ import { iphoneModels } from "../data/index";
 
 const Iphone = () => {
   return (
-    <div className="w-full h-full flex items-center flex-col justify-around bg-white p-8 border-l border-gray-300">
+    <div className="w-full h-full flex items-center flex-col justify-around bg-white p-8">
       <h3 className="2xl:text-4xl xl:text-3xl md:text-2xl font-semibold text-gray-800 mb-8">
         Which IPhone do you prefer?
       </h3>
@@ -16,7 +16,7 @@ const Iphone = () => {
             <img
               src={iphone.img}
               alt={iphone.name}
-              className="2xl:w-72 lg:w-64 sm:w-48 sm:h-48 md:h-64 object-contain"
+              className="2xl:w-72 lg:w-64 sm:w-48 sm:h-48 md:h-64 -my-8 xl:my-0 object-contain"
               draggable="false"
             />
             <a
