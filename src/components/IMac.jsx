@@ -9,7 +9,7 @@ const IMac = () => {
     imacModels.find((model) => model.label.toLowerCase() === selectedColor);
 
   return (
-    <div className="h-full grid grid-cols-2 grid-rows-2 md:gap-4 gap-1 bg-white relative">
+    <div className="h-full grid grid-cols-2 grid-rows-2 md:gap-4 gap-1 bg-white relative border-l border-gray-300">
       <div className="h-full col-span-1 row-span-2 flex flex-col items-center md:justify-center justify-start p-8 bg-gray-50">
         <img
           src={getCurrentModel().images.side}
@@ -17,14 +17,14 @@ const IMac = () => {
           className="2xl:max-w-full xl:max-w-36 max-w-24"
         />
       </div>
-      <div className="bg-gray-50 col-span-1 row-span-1 flex items-center justify-center p-12">
+      <div className="bg-gray-50 col-span-1 row-span-1 flex items-center justify-center p-15">
         <img
           src={getCurrentModel().images.front}
           alt="Imac"
           className="2xl:max-w-full xl:max-w-52 lg:max-w-48"
         />
       </div>
-      <div className="bg-gray-50 col-span-1 row-span-1 flex items-center justify-center p-12">
+      <div className="bg-gray-50 col-span-1 row-span-1 flex items-center justify-center p-10">
         <img
           src={getCurrentModel().images.back}
           alt="Imac"
