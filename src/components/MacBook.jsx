@@ -13,7 +13,7 @@ const MacBook = () => {
     setSelectedColor(0);
   };
   return (
-    <div className="relative flex flex-col items-center justify-around bg-white py-5 h-full border-l border-gray-300">
+    <div className="relative flex flex-col items-center justify-around bg-white py-5 h-full">
       <h3 className="2xl:text-4xl xl:text-3xl md:text-2xl font-semibold text-gray-800">
         Choose your new MacBook Air.
       </h3>
@@ -43,12 +43,12 @@ const MacBook = () => {
         ))}
       </div>
 
-      <div className="flex flex-col 2xl:p-4 2xl:pt-0 md:items-start items-center">
-        <div className="h-44 2xl:mb-0 -mb-0">
+      <div className="flex flex-col 2xl:p-4 md:items-start items-center">
+        <div className="h-44 w-80 2xl:my-0 -mb-16 mt-5">
           <img
             src={currntColor.img}
             alt={`MacBook Air With ${currntMb.chip}`}
-            className="2xl:w-68 xl:w-52 w-48 h-auto 2xl:mt-0 sm:-mt-6"
+            className="object-contain m-auto 2xl:w-68 xl:w-52 w-48 h-auto 2xl:mt-0 sm:-mt-6"
           />
         </div>
         <span className="2xl:text-lg xl:text-sm font-medium text-gray-800 mb-1 text-center md:text-left">
@@ -71,9 +71,9 @@ const MacBook = () => {
         <img
           src={currntMb.icon}
           alt={`Apple ${currntMb.chip} Icon`}
-          className="size-11 xl:mb-2"
+          className="size-11 lg:mb-2"
         />
-        <div className="2xl:mb-4 xl:mb-2 text-center md:text-left">
+        <div className="lg:mb-2 text-center md:text-left">
           {currntMb.specs.map((spac, index) => (
             <p
               key={index}
