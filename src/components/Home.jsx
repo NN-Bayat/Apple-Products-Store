@@ -7,7 +7,7 @@ const Home = ({ onNavigate }) => {
       {items.map((item, index) => (
         <div
           key={index}
-          className="flex flex-col flex-grow items-center justify-between pt-8 pb-5 bg-white cursor-pointer"
+          className="flex flex-col flex-grow items-center justify-between sm:pt-8 pt-16 pb-10 sm:pb-5  bg-white cursor-pointer"
           onClick={() => onNavigate(item.pageIndex)}
         >
           <span className="text-xl font-bold bg-gradient-to-b from-red-500 to-yellow-300 bg-clip-text text-transparent tracking-wide">
@@ -16,7 +16,7 @@ const Home = ({ onNavigate }) => {
           <img
             src={item.img}
             alt={item.label}
-            className="max-w-[70%] max-h-[70%] object-contain"
+            className="sm:max-w-[70%] sm:max-h-[70%] w-[80%] h-[80%] object-contain"
             draggable="false"
           />
         </div>
